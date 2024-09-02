@@ -1,2 +1,2 @@
-README.md
-This is the description of my repo
+creating branches for feature development, merging branching, and resolving merge conflicts
+Modification in main branch
