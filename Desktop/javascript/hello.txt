@@ -1,0 +1,9 @@
+Hello Git and Github !
+
+Git init
+
+Git add hello.txt
+
+Git remote add origin <https://github.com/EzimaSamuel/LocalRepoProject.git>
+
+Git push -u origin main
