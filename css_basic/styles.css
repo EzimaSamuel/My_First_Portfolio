@@ -1,0 +1,61 @@
+/* Apply Flexbox to <body> */
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* Stack header, main, and footer vertically */
+    margin: 0;
+    /* Remove default margin */
+    min-height: 100vh;
+    /* Ensure the body takes full viewport height */
+}
+
+
+/* Apply Flexbox to <main> */
+
+main {
+    display: flex;
+    flex-direction: row;
+    /* Arrange article and aside horizontally */
+    flex: auto;
+    /* Allow main to grow and shrink as needed */
+    margin: 0;
+    /* Remove default margin */
+    padding: 10px;
+    /* Optional: Add padding if needed */
+}
+
+
+/* Style <article> */
+
+article {
+    flex: 2;
+    /* Take up 2/3 of the available width */
+    overflow-y: auto;
+    /* Allow vertical scrolling */
+    padding: 10px;
+    /* Optional: Add padding if needed */
+}
+
+
+/* Style <aside> */
+
+aside {
+    flex: 1;
+    /* Take up 1/3 of the available width */
+    overflow-y: auto;
+    /* Allow vertical scrolling */
+    padding: 10px;
+    /* Optional: Add padding if needed */
+}
+
+
+/* Basic styling for header and footer */
+
+header,
+footer {
+    padding: 10px;
+    /* Optional: Add padding if needed */
+    background-color: #f1f1f1;
+    /* Optional: Background color for visibility */
+}
