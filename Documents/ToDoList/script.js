@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Assign an onclick event to the remove button
             removeButton.onclick = function() {
+                // Remove the li element from the task list
                 taskList.removeChild(li);
             };
 
@@ -39,10 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Attach event listener to addButton
+    // Attach event listener to addButton to call addTask when clicked
     addButton.addEventListener('click', addTask);
 
-    // Attach event listener to taskInput for keypress event
+    // Attach event listener to taskInput for the 'keypress' event
     taskInput.addEventListener('keypress', function(event) {
         // Check if the Enter key is pressed
         if (event.key === 'Enter') {
